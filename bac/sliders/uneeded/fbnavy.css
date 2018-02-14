@@ -1,0 +1,26 @@
+/**
+ * @package     pwebbox
+ * @version 	2.0.0
+ *
+ * @copyright   Copyright (C) 2015 Perfect Web. All rights reserved. http://www.perfect-web.co
+ * @license     GNU General Public Licence http://www.gnu.org/licenses/gpl-3.0.html
+ */
+/* content */
+.pwebbox-box.pweb-theme-fbnavy .pwebbox-facebook-pageplugin-pretext {
+    padding: 2px 3px;
+}
+.pwebbox-box.pweb-theme-fbnavy .pwebbox-facebook-pageplugin-pretext,
+.pwebbox-box.pweb-theme-fbnavy .pwebbox-facebook-pageplugin-content {
+    background-color: #fff;
+}
+
+/* Little fix for Bottom Bar */
+.pweb-theme-fbnavy.pwebbox_bottombar_toggler {
+    background-color: #133783;
+    background-image: none;
+    border-color: #001965;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+    color: #FFF;
+    font-size: 21px;
+    font-family: Arial,Helvetica,sans-serif;
+}

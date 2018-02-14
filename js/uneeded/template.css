@@ -1,0 +1,16 @@
+/**
+ * @version     $Id: template.css Oct 3rd, 2011 18:28:38Z OmegaTheme.com $
+ * @package     OmegaTheme Joomla 1.5 Template
+ * @subpackage  OT Template Code Standard
+ * @author      OmegaTheme.com (services@omegatheme.com)
+ * @link        http://omegatheme.com
+ * @copyright   Copyright (C) 2008 - 2012 OmegaTheme. All Rights Reserved
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+@import url(reset.css);
+@import url(editor.css);
+@import url(joomla.css);
+@import url(layout.css);
+@import url(dropdownMenu.css);
+@import url(typography.css);
+@import url(customs.css);

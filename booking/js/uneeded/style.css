@@ -1,0 +1,32 @@
+p{
+	margin:0px;
+}
+.ticker {
+	overflow: auto;
+}
+
+.ticker dt {
+	padding: 5px 10px;
+	border-bottom: none;
+	border-right: none;
+	position: relative;
+}
+
+.ticker dd {
+	margin-left: 0;
+	padding: 0 10px 10px 10px;
+	border-bottom: 1px solid #cccccc;
+	position: relative;
+}
+
+.ticker dd.last {
+	border-bottom: 1px solid #cccccc;
+}
+
+.ticker div {
+	margin-top: 0;
+}
+
+.ticker .heading a {
+	font-weight: bold;
+}

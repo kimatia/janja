@@ -1,0 +1,109 @@
+.container{width: 100%;}
+.user-box {
+    width: 300px;
+    border-radius: 0 0 3px 3px;
+    padding: 10px;
+    position: relative;
+}
+.user-box .name {
+    word-break: break-all;
+    padding: 10px 10px 10px 10px;
+    background: #EEEEEE;
+    text-align: center;
+    font-size: 25px;
+	font-family:fantasy;
+}
+.user-box form{display: inline;}
+.user-box .name h4{margin: 0;}
+.user-box img#imagePreview{width: 100%;}
+
+.editLink {
+    position:absolute;
+    top:28px;
+    right:10px;
+    opacity:0;
+    transition: all 0.3s ease-in-out 0s;
+    -mox-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    background:rgba(255,255,255,0.2);
+}
+.img-relative:hover .editLink{opacity:1;}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(255,255,255,0.7);
+}
+.overlay-content {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+.uploadProcess img{
+    max-width: 207px;
+    border: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    display: inline;
+}
+.switchBtn {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+}
+.switchBtn input {display:none;}
+.slide {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    padding: 8px;
+    color: #fff;
+}
+.slide:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 78px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slide {
+    background-color: #8CE196;
+    padding-left: 40px;
+}
+input:focus + .slide {
+    box-shadow: 0 0 1px #01aeed;
+}
+input:checked + .slide:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -20px;
+}
+
+/* rounded toggle switch */
+.slide.round {
+    border-radius: 23px;
+}
+.slide.round:before {
+    border-radius: 23%;
+}
